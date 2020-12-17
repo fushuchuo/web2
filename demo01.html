@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #photo{
+            opacity: 0.4;
+            height: 100%;
+            width: 100%;
+        }
+        #btn{
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            font-style: italic;
+            letter-spacing: 5px;
+            background-color: rgb(93, 134, 187);
+            color: rgb(9, 17, 27);
+            position: fixed;
+            top: 0%;
+            left: 0%;
+        }
+        #song{
+            font-size: 20px;
+            position: fixed;
+            color: rgb(66, 34, 65);
+            top: 20%;
+            left: 20%;
+        }
+        #change{
+            font-size: 30px;
+            float: right;
+            color: rgb(77, 51, 51);
+        }
+        #rank{
+            position: relative;
+            width: 3000px;
+            margin: auto;
+            overflow: hidden;
+        }
+        #rank img{
+            float: left;
+            padding-left: 2px;
+            width: 300px;
+            overflow: hidden;
+        }
+        #word{
+            height: 200px;
+            width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #img1{
+            height: 500px;
+            width: 300px;
+            padding-left: 20px;
+        }
+        #img2{
+            height: 500px;
+            width: 300px;
+            padding-left: 20px;
+        }
+        #img3{
+            height: 500px;
+            width: 300px;
+            padding-left: 20px;
+        }
+        #img4{
+            height: 500px;
+            width: 300px;
+            padding-left: 20px;
+        }
+        #img5{
+            height: 500px;
+            width: 300px;
+            padding-left: 20px;
+        }
+        #img6{
+            height: 500px;
+            width: 300px;
+            padding-left: 20px;
+        }
+        #bottom{
+            position: absolute;
+        }
+        #intro{
+            height: 1100px;
+            width: 1200px;
+            margin: auto;
+            position: relative;
+            left: 200px;
+        }
+        #p1{
+            color: rgb(253, 252, 251) ;
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 220px;
+            top: -1110px;
+        }
+        #p2{
+            color: rgb(253, 252, 251) ;
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 550px;
+            top: -1630px;
+        }
+        #p3{
+            color: rgb(253, 252, 251) ;
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 870px;
+            top: -2150px;
+        }
+        #p4{
+            color: rgb(253, 252, 251) ;
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 220px;
+            top: -2170px;
+        }
+        #p5{
+            color: rgb(253, 252, 251) ;
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 550px;
+            top: -2690px;
+        }
+        #p6{
+            color: rgb(253, 252, 251) ;
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 870px;
+            top: -3200px;
+        }
+        #active{
+            padding: 10px;
+            
+            overflow: hidden;
+        }
+        #zzn{
+            color: gray;
+            height: 50px;
+        }
+        #btn2{
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            font-style: italic;
+            letter-spacing: 5px;
+            background-color: rgb(119, 140, 167);
+            color: rgb(9, 17, 27);
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="out">
+        <img src="images/1.jpg" alt="" id="photo">
+        <button id="btn">点击进入vin的世界</button>
+        <div id="song">
+            <p>我已经习惯一个人走在拥挤的道路上</p>
+            <p>抬起头向前方窥望 黑暗中竟然没有一丝光亮</p>
+            <p>人们说孤单是生命的常态</p>
+            <p>但大地也会忧伤抓不住丢掉的愿望</p>
+            <p>终于我破茧成了蝶 用梦想击败了迷惘</p>
+            <p>群星她散发着光芒 引我前往我想去的地方</p>
+            <p>我蜕下了蚕衣 会变得更加坚强</p>
+            <p>张开双臂 这次换我来做你的太阳</p>
+            <a href="https://y.qq.com/n/yqq/song/232709021_num.html" id="change" target="_blank">———蜕变</a>
+        </div>
+        <div>
+            <p></p>
+        </div>
+    </div>
+    <div id="inside">
+        <div id="rank">
+            <img src="images/8.png" alt="" id="pto">
+            <img src="images/9.png" alt="" id="pto">
+            <img src="images/10.png" alt="" id="pto">
+            <img src="images/16.png" alt="" id="pto">
+            <img src="images/17.png" alt="" id="pto">
+        </div>
+        <div id="word">
+            <h1 id="zzn">周震南</h1>
+            <p>2000年6月21日出生于重庆市，中国内地流行乐男歌手，男子演唱组合R1SE队长及C位</p>
+            <button id="btn2">返回上一页</button>
+        </div>
+        <div id="bottom">
+            <div id="intro">
+                <img src="images/13.png" alt="" id="img1">
+                <img src="images/2.png" alt="" id="img2">
+                <img src="images/15.png" alt="" id="img3">
+                <img src="images/6.png" alt="" id="img4">
+                <img src="images/4.png" alt="" id="img5">
+                <img src="images/3.jpg" alt="" id="img6">
+            </div>
+            <div id="p0">
+                <p id="p1">2017年，参加腾讯视频音乐偶像养成类节目《明日之子》，最终获得全国总决赛第4名，从而正式出道</p>
+                <p id="p2">2018年，参加腾讯视频偶像搭档对决音乐真人秀节目《潮音战纪》，在持续对决两个月后，与Samuel获得总决赛冠军及“最强潮音搭档”称号</p>
+                <p id="p3">2019年，作为选手参加腾讯视频青年团训节目《创造营2019》，节目期间一直保持第一名的层级，同样在最终以总决赛第1名的成绩成功出道</p>
+                <p id="p4">2020年4月，周震南加盟由湖南卫视徐晴工作室打造的首档原创手作解密互动体验秀《巧手神探》，与其他嘉宾组成神探团</p>
+                <p id="p5">2020年5月，队长周震南带领R1SE参加音乐团体竞演节目《炙热的我们》，肩负队长的责任为团队进行编曲编舞</p>
+                <p id="p6">2020年7月，周震南加盟腾讯视频《明日之子乐团季》，与其他嘉宾组成“明日教师团”，助力喜欢音乐的年轻人找寻志同道合的乐团伙伴。</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script>
+    var btn = document.getElementById("btn");
+    var inside = document.getElementById("inside");
+    var pto = document.getElementById("pto");
+    var zzn = document.getElementById("zzn");
+    var img1 = document.getElementById("img1");
+    var img2 = document.getElementById("img2");
+    var img3 = document.getElementById("img3");
+    var img4 = document.getElementById("img4");
+    var img5 = document.getElementById("img5");
+    var img6 = document.getElementById("img6");
+    var btn2 = document.getElementById("btn2");
+    //隐藏内层页面
+    style = "display:none"
+    inside.style.display = "none";
+    p1.style.display = "none";
+    p2.style.display = "none";
+    p3.style.display = "none";
+    p4.style.display = "none";
+    p5.style.display = "none";
+    p6.style.display = "none";
+    //点击按钮，进入内部界面
+    btn.onclick = function(){
+        out.style.display = "none";
+        inside.style.display = "";
+    }
+
+    //使文字移动
+    zzn.style.marginLeft = "20px";
+    var intervalId = setInterval(function(){
+        var marginLeft = parseInt(zzn.style.marginLeft);
+        if(marginLeft == 800){
+            zzn.style.marginLeft = "0";
+            marginLeft = "0"; 
+        }
+        zzn.style.marginLeft = (marginLeft + 1) + "px";
+    },10);
+    //点击返回按钮返回开始页面
+    btn2.onclick = function(){
+        window.history.go(0);
+    }
+    //鼠标点击图片显示文字
+    img1.onclick = function(){
+        p1.style.display = "";
+        p2.style.display = "";
+        p3.style.display = "";
+        p4.style.display = "";
+        p5.style.display = "";
+        p6.style.display = "";
+    }
+    img2.onclick = function(){
+        p1.style.display = "";
+        p2.style.display = "";
+        p3.style.display = "";
+        p4.style.display = "";
+        p5.style.display = "";
+        p6.style.display = "";
+    }
+    img3.onclick = function(){
+        p1.style.display = "";
+        p2.style.display = "";
+        p3.style.display = "";
+        p4.style.display = "";
+        p5.style.display = "";
+        p6.style.display = "";
+    }
+    img4.onclick = function(){
+        p1.style.display = "";
+        p2.style.display = "";
+        p3.style.display = "";
+        p4.style.display = "";
+        p5.style.display = "";
+        p6.style.display = "";
+    }
+    img5.onclick = function(){
+        p1.style.display = "";
+        p2.style.display = "";
+        p3.style.display = "";
+        p4.style.display = "";
+        p5.style.display = "";
+        p6.style.display = "";
+    }
+    img6.onclick = function(){
+        p1.style.display = "";
+        p2.style.display = "";
+        p3.style.display = "";
+        p4.style.display = "";
+        p5.style.display = "";
+        p6.style.display = "";
+    }
+
+</script>
+</html>
